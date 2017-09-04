@@ -16,5 +16,5 @@ Here we provide descriptions of some of the important directories in this librar
  - `src/pydybm/`: You find __pydybm__ here.  See [src/pydybm/Readme.md](src/pydybm/Readme.md).
  - `src/jdybm/`: You find a Java implementation, which is used for the experiments in [www.nature.com/articles/srep14149](http://www.nature.com/articles/srep14149).  See [Readme.md for jdybm](src/jdybm/Readme.md).
 - `examples/`: You find examples of using __pydybm__ here.  Run `jupyter notebook` at this directory to see the examples.  See also [src/pydybm/Readme.md](src/pydybm/Readme.md).
-- `data/`: You will store datasets here.  In particular, `src/pydybm/tools/Converter.py' will download datasets, convert them in a common format, and store them here.
+- `data/`: You will store datasets here.
 

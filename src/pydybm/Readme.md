@@ -79,7 +79,7 @@ plt.legend()
 
 Other DyBMs can be used in an analogous manner, but pydybm allows more sophisticated use of DyBMs with more complex time-series data.  See examples by running `jupyter notebook` at `../../examples/`.
 
-### PyDyBM for reinforcement learning
+### pydybm for reinforcement learning
 
 `pydybm.reinforce.dysarsa` is the base class for using a DyBM network factored into observations nodes and action nodes, in order to perform SARSA temporal difference reinforcement learning. This uses the linear energy of a binary DyBM as the Q-action-value function for SARSA update. The parameters of DySARSA network is updated using a temporal difference error. 
 
