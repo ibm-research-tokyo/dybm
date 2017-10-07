@@ -92,7 +92,7 @@ Alternatively, you can create your own DyBMs by the use of the building blocks p
 
 ## Other how-to on pydybm
 
-The following commands should be executed at DyBM Root directory (this Readme is at `[Root]/src/pydybm/`).
+
 
 ### How to generate documentation
 
