@@ -5,7 +5,7 @@ pydybm is a Python implementation for learning time-series with DyBMs.
 ### Prerequisites for pydybm
 
 
-The modules in the following assume latest versions (as of July, 2017).  They might work in other versions, unless required versions are explicitely stated.  To update a module into the latest version, run `pip install [module] --upgrade`.
+The modules in the following assume latest versions (as of July, 2017).  They might work in other versions, unless required versions are explicitly stated.  To update a module into the latest version, run `pip install [module] --upgrade`.
 
 **Essentials**
 
@@ -28,7 +28,7 @@ Install pydybm by:
 Run unit test by:  
 `python setup.py test`
 
-If the test is successful, it completes with a messege like this:
+If the test is successful, it completes with a message like this:
 ```
 ----------------------------------------------------------------------
 Ran 108 tests in 89.631s
@@ -81,7 +81,7 @@ Other DyBMs can be used in an analogous manner, but pydybm allows more sophistic
 
 ### pydybm for reinforcement learning
 
-`pydybm.reinforce.dysarsa` is the base class for using a DyBM network factored into observations nodes and action nodes, in order to perform SARSA temporal difference reinforcement learning. This uses the linear energy of a binary DyBM as the Q-action-value function for SARSA update. The parameters of DySARSA network is updated using a temporal difference error. 
+`pydybm.reinforce.dysarsa` is the base class for using a DyBM network factored into observations nodes and action nodes, in order to perform SARSA temporal difference reinforcement learning. This uses the linear energy of a binary DyBM as the Q-action-value function for SARSA update. The parameters of DySARSA network is updated using a temporal difference error.
 
 See further details in: S. Dasgupta & T. Osogami, Spike Timing Dependent Reinforcement learning with Dynamic Boltzmann Machine (2016).
 
@@ -92,20 +92,20 @@ Alternatively, you can create your own DyBMs by the use of the building blocks p
 
 ## Other how-to on pydybm
 
-The following commands should be executed at DyBM' Root directory (this Readme is at `[Root]/src/pydybm/`).
+
 
 ### How to generate documentation
 
 To generate documentation, you need __Sphinx__ (version 1.4 or above), __numpydoc__, __jupyter__, and __pandoc__.
 
-Generate html documentation by:  
-`make docs`  
+Generate html documentation (while inside the `src/pydybm/docs/` directory) with the command:  
+	`make html`  
 You will find html documentation under `docs/_build/html`
 
 
 ### How to uninstall
 
+The following command should be executed at DyBM' Root directory (this Readme is at `[Root]/src/pydybm/`).
+
 Uninstall pydybm by:  
 `python setup.py develop --uninstall`
-
-
