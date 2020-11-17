@@ -869,8 +869,13 @@ class BinaryDyBM(ComplexDyBM):
         self.len_fifo = delay - 1
         self.in_dim = in_dim
         self.out_dim = out_dim
+        if out_dim is None:
+            out_dims = None
+        else:
+            out_dims = [out_dim]
+
         ComplexDyBM.__init__(self, [delay], [decay_rates], ["sigmoid"],
-                             [in_dim], SGD=SGD, L1=L1, L2=L2,
+                             [in_dim], out_dims=out_dims, SGD=SGD, L1=L1, L2=L2,
                              use_biases=[[True]], sigma=sigma,
                              insert_to_etrace=insert_to_etrace)
 
