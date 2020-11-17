@@ -18,3 +18,6 @@ Here we provide descriptions of some of the important directories in this librar
 - `examples/`: You find examples of using __pydybm__ here.  Run `jupyter notebook` at this directory to see the examples.  See also [src/pydybm/Readme.md](src/pydybm/Readme.md).
 - `data/`: You will store datasets here.
 
+## Contributors
+Takayuki Osogami, Hiroshi Kajino, Sakyasingha Dasgupta, Taro Sekiyama, Rudy Raymond, Kun Zhao.
+
