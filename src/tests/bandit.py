@@ -37,7 +37,7 @@ class BanditEnv(gym.Env):
         self.action_space = spaces.Discrete(self.n_bandits)
         self.observation_space = spaces.Discrete(1)
 
-        self._seed()
+        self.seed()
 
     def seed(self, seed=None):
         self.np_random, seed = seeding.np_random(seed)
