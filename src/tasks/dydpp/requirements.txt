@@ -2,7 +2,7 @@ cycler==0.10.0
 joblib==0.13.2
 kiwisolver==1.1.0
 matplotlib==3.1.1
-numpy==1.17.2
+numpy==1.22.0
 -e git+https://github.com/ibm-research-tokyo/dybm.git@e209f68016f717d792756d3aea94cac0cf03ac26#egg=pydybm
 pyparsing==2.4.2
 python-dateutil==2.8.0
